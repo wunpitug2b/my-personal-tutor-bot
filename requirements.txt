@@ -1,0 +1,4 @@
+flask
+anthropic
+line-bot-sdk
+gunicorn
