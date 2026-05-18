@@ -149,7 +149,7 @@ def callback():
 def handle_message(event):
     user_message = event.message.text
     response = anthropic_client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5",
         max_tokens=1000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}]
